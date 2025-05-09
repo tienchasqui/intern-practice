@@ -13,6 +13,9 @@
       justify-content: center;
       align-items: center;
       font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
     }
     .welcome-card {
       background: white;
@@ -21,10 +24,25 @@
       padding: 3rem;
       text-align: center;
       animation: fadeIn 1.2s ease-in-out;
+      width: 100%;
+      max-width: 500px;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
+    }
+    footer {
+      width: 100%;
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      position: absolute;
+      bottom: 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -32,23 +50,24 @@
   <div class="welcome-card">
     <h1 class="display-4 text-primary fw-bold">🌟 Chào mừng bạn! 🌟</h1>
     <p class="lead mt-3 mb-4">Chúc bạn một hành trình học tập thú vị và thành công trong kỳ thực tập!</p>
-    <a href="#" class="btn btn-outline-primary btn-lg">Bắt đầu ngay</a>
+    <a href="form-login.html" class="btn btn-outline-primary btn-lg">Đăng nhập</a>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-<footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-      <p>&copy; 2025 <a href="https://github.com/tienchasqui" class="text-white" target="_blank">Tienchasqui</a>. Tất cả quyền được bảo lưu.</p>
+  <footer>
+    <div>
+      <p>&copy; 2025 <a href="https://github.com/tienchasqui" target="_blank">Tienchasqui</a>. Tất cả quyền được bảo lưu.</p>
       <p>
-        <a href="https://facebook.com/tienchasqui" class="text-white me-3" target="_blank">
+        <a href="https://facebook.com/tienchasqui" target="_blank">
           <i class="fab fa-facebook"></i> Facebook
         </a>
-        <a href="https://twitter.com/tienchasqui" class="text-white" target="_blank">
+        |
+        <a href="https://twitter.com/tienchasqui" target="_blank">
           <i class="fab fa-twitter"></i> Twitter
         </a>
       </p>
     </div>
   </footer>
-  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
