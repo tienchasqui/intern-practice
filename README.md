@@ -1,3 +1,2 @@
 # intern-practice
-Tôi đang làm ví dụ về conflict đây nhé 
-Không hiểu sao lại quay về main đây rồi hehee
+Lần này thì anh chịu thua thật rồi 
